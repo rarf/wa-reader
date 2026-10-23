@@ -1,0 +1,259 @@
+{
+  "auth": {
+    "is_authenticated": true,
+    "session_user": "351910000000@s.whatsapp.net",
+    "store_path": "/home/rarf/.local/share/wa-ro/wa-ro.db",
+    "last_sync": "2026-10-23T10:15:00Z",
+    "backend": "synthetic-fixture"
+  },
+  "chats": [
+    {
+      "jid": "120363028471928374@g.us",
+      "name": "Futsal Terça 21h - Carnaxide",
+      "is_group": true,
+      "unread_count": 3,
+      "last_message_timestamp": "2026-10-23T09:45:00Z",
+      "last_message_preview": "Miguel: Eu levo a bola e os coletes."
+    },
+    {
+      "jid": "120363098765432100@g.us",
+      "name": "Escola Básica 3º Ano - Turma B",
+      "is_group": true,
+      "unread_count": 5,
+      "last_message_timestamp": "2026-10-23T10:05:00Z",
+      "last_message_preview": "Carlos: Alerta para quem precisa de transporte escolar..."
+    },
+    {
+      "jid": "120363112233445566@g.us",
+      "name": "Família & Miúdos",
+      "is_group": true,
+      "unread_count": 0,
+      "last_message_timestamp": "2026-10-23T08:30:00Z",
+      "last_message_preview": "Hugo: Boa, já preparei o lanche."
+    },
+    {
+      "jid": "351912345678@s.whatsapp.net",
+      "name": "Maria Silva",
+      "is_group": false,
+      "unread_count": 1,
+      "last_message_timestamp": "2026-10-23T09:00:00Z",
+      "last_message_preview": "Chegaste bem ao escritório?"
+    },
+    {
+      "jid": "351969888777@s.whatsapp.net",
+      "name": "Grok Chief of Staff",
+      "is_group": false,
+      "unread_count": 0,
+      "last_message_timestamp": "2026-10-23T10:10:00Z",
+      "last_message_preview": "Status briefing: 2 alertas pendentes nos grupos monitorizados."
+    }
+  ],
+  "groups": [
+    {
+      "jid": "120363028471928374@g.us",
+      "name": "Futsal Terça 21h - Carnaxide",
+      "topic": "Jogos semanais de futebol de 5 às terças no campo 2",
+      "owner_jid": "351911111111@s.whatsapp.net",
+      "participant_count": 14,
+      "created_at": "2026-01-10T12:00:00Z"
+    },
+    {
+      "jid": "120363098765432100@g.us",
+      "name": "Escola Básica 3º Ano - Turma B",
+      "topic": "Grupo de pais e encarregados de educação - Ano Letivo 2026/2027",
+      "owner_jid": "351922222222@s.whatsapp.net",
+      "participant_count": 26,
+      "created_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "jid": "120363112233445566@g.us",
+      "name": "Família & Miúdos",
+      "topic": "Coordenação logística familiar e escola/atividades",
+      "owner_jid": "351933333333@s.whatsapp.net",
+      "participant_count": 5,
+      "created_at": "2025-05-15T18:00:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "MSG-FUT-001",
+      "chat_jid": "120363028471928374@g.us",
+      "chat_name": "Futsal Terça 21h - Carnaxide",
+      "sender_jid": "351911111111@s.whatsapp.net",
+      "sender_name": "Carlos Silva",
+      "timestamp": "2026-10-23T09:00:00Z",
+      "text": "Boas malta, jogo amanhã às 21h confirmado?",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-FUT-002",
+      "chat_jid": "120363028471928374@g.us",
+      "chat_name": "Futsal Terça 21h - Carnaxide",
+      "sender_jid": "351911222333@s.whatsapp.net",
+      "sender_name": "Pedro Santos",
+      "timestamp": "2026-10-23T09:10:00Z",
+      "text": "Sim, campo 2 reservado. Quem vai?",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": "MSG-FUT-001"
+    },
+    {
+      "id": "MSG-FUT-003",
+      "chat_jid": "120363028471928374@g.us",
+      "chat_name": "Futsal Terça 21h - Carnaxide",
+      "sender_jid": "351911333444@s.whatsapp.net",
+      "sender_name": "Tiago Ferreira",
+      "timestamp": "2026-10-23T09:15:00Z",
+      "text": "Eu vou! +1",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-FUT-004",
+      "chat_jid": "120363028471928374@g.us",
+      "chat_name": "Futsal Terça 21h - Carnaxide",
+      "sender_jid": "351911444555@s.whatsapp.net",
+      "sender_name": "João Oliveira",
+      "timestamp": "2026-10-23T09:25:00Z",
+      "text": "Também vou. Faltam 2 para fechar os 10.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-FUT-005",
+      "chat_jid": "120363028471928374@g.us",
+      "chat_name": "Futsal Terça 21h - Carnaxide",
+      "sender_jid": "351911111111@s.whatsapp.net",
+      "sender_name": "Carlos Silva",
+      "timestamp": "2026-10-23T09:35:00Z",
+      "text": "Consegui mais um, falta só 1 para fechar o jogo.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-FUT-006",
+      "chat_jid": "120363028471928374@g.us",
+      "chat_name": "Futsal Terça 21h - Carnaxide",
+      "sender_jid": "351911555666@s.whatsapp.net",
+      "sender_name": "Miguel Rodrigues",
+      "timestamp": "2026-10-23T09:45:00Z",
+      "text": "Eu levo a bola e os coletes.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-ESC-001",
+      "chat_jid": "120363098765432100@g.us",
+      "chat_name": "Escola Básica 3º Ano - Turma B",
+      "sender_jid": "351922222222@s.whatsapp.net",
+      "sender_name": "Delegada Ana",
+      "timestamp": "2026-10-23T08:45:00Z",
+      "text": "Aviso: a reunião de pais foi remarcada para sexta-feira às 18h30.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-ESC-002",
+      "chat_jid": "120363098765432100@g.us",
+      "chat_name": "Escola Básica 3º Ano - Turma B",
+      "sender_jid": "351922333444@s.whatsapp.net",
+      "sender_name": "Mariana (Mãe Tomás)",
+      "timestamp": "2026-10-23T09:05:00Z",
+      "text": "Obrigada pelo aviso! Alguém sabe até que dia é para entregar o trabalho de Estudo do Meio?",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": "MSG-ESC-001"
+    },
+    {
+      "id": "MSG-ESC-003",
+      "chat_jid": "120363098765432100@g.us",
+      "chat_name": "Escola Básica 3º Ano - Turma B",
+      "sender_jid": "351922444555@s.whatsapp.net",
+      "sender_name": "Professor Rui",
+      "timestamp": "2026-10-23T09:30:00Z",
+      "text": "Boa tarde a todos. O trabalho de Estudo do Meio deve ser entregue na próxima terça-feira, dia 28.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": "MSG-ESC-002"
+    },
+    {
+      "id": "MSG-ESC-004",
+      "chat_jid": "120363098765432100@g.us",
+      "chat_name": "Escola Básica 3º Ano - Turma B",
+      "sender_jid": "351922555666@s.whatsapp.net",
+      "sender_name": "Sofia Dias",
+      "timestamp": "2026-10-23T09:50:00Z",
+      "text": "Lembrete: amanhã não há ATL à tarde devido a formação interna.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-ESC-005",
+      "chat_jid": "120363098765432100@g.us",
+      "chat_name": "Escola Básica 3º Ano - Turma B",
+      "sender_jid": "351922666777@s.whatsapp.net",
+      "sender_name": "Carlos Fernandes",
+      "timestamp": "2026-10-23T10:05:00Z",
+      "text": "Alerta para quem precisa de transporte escolar amanhã de manhã: a carrinha sai às 08h15.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-FAM-001",
+      "chat_jid": "120363112233445566@g.us",
+      "chat_name": "Família & Miúdos",
+      "sender_jid": "351933333333@s.whatsapp.net",
+      "sender_name": "Rita",
+      "timestamp": "2026-10-23T08:15:00Z",
+      "text": "As crianças já saíram da natação, estamos a caminho de casa.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-FAM-002",
+      "chat_jid": "120363112233445566@g.us",
+      "chat_name": "Família & Miúdos",
+      "sender_jid": "351910000000@s.whatsapp.net",
+      "sender_name": "Hugo",
+      "timestamp": "2026-10-23T08:30:00Z",
+      "text": "Boa, já preparei o lanche.",
+      "is_from_me": true,
+      "media_type": null,
+      "quoted_message_id": "MSG-FAM-001"
+    },
+    {
+      "id": "MSG-DIR-001",
+      "chat_jid": "351912345678@s.whatsapp.net",
+      "chat_name": "Maria Silva",
+      "sender_jid": "351912345678@s.whatsapp.net",
+      "sender_name": "Maria Silva",
+      "timestamp": "2026-10-23T09:00:00Z",
+      "text": "Chegaste bem ao escritório?",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    },
+    {
+      "id": "MSG-COS-001",
+      "chat_jid": "351969888777@s.whatsapp.net",
+      "chat_name": "Grok Chief of Staff",
+      "sender_jid": "351969888777@s.whatsapp.net",
+      "sender_name": "Grok Chief of Staff",
+      "timestamp": "2026-10-23T10:10:00Z",
+      "text": "Status briefing: 2 alertas pendentes nos grupos monitorizados.",
+      "is_from_me": false,
+      "media_type": null,
+      "quoted_message_id": null
+    }
+  ]
+}

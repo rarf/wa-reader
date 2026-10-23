@@ -1,0 +1,34 @@
+[package]
+name = "wa-ro"
+version = "0.1.0"
+edition = "2024"
+authors = ["wa-ro contributors"]
+description = "A read-only WhatsApp CLI tool for humans and Chief of Staff / Grok Bot watchers"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+dirs = "6.0"
+thiserror = "2.0"
+anyhow = "1.0"
+rusqlite = { version = "0.33", features = ["bundled"], optional = true }
+tokio = { version = "1", features = ["full"] }
+
+[features]
+default = ["sqlite"]
+sqlite = ["dep:rusqlite"]
+
+[lints.rust]
+warnings = "deny"
+
+[lib]
+name = "wa_ro"
+path = "src/lib.rs"
+
+[[bin]]
+name = "wa-ro"
+path = "src/main.rs"

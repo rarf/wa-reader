@@ -1,0 +1,2 @@
+[alias]
+# Note: cargo clippy -- -D warnings is the standard invocation
